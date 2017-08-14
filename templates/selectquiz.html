@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2> Quiz Selecting </h2>
+
+<!--  Add a dropdown of available quizzes from the database          -->
+
+<form method="post">
+  <!--
+  <select name = "choice">
+  <option th:each="maze : ${mazes}" th:value = "${maze.name}" th:text = "${maze.name} + ' - Size - ' + ${maze.size}"></option>
+</select> -->
+
+  <input type="submit">
+</form>
+
+{% endblock %}
